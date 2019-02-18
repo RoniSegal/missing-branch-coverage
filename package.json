@@ -1,0 +1,29 @@
+{
+  "name": "missing-branch-coverage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc --reporter=html mocha tsOutputs/test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RoniSegal/missing-branch-coverage.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RoniSegal/missing-branch-coverage/issues"
+  },
+  "homepage": "https://github.com/RoniSegal/missing-branch-coverage#readme",
+  "dependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.6",
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "nyc": "^13.3.0",
+    "sinon": "^7.2.3",
+    "typescript": "^3.3.3"
+  }
+}
