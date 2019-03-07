@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "tsc -p .",
     "test": "nyc --reporter=html mocha tsOutputs/test"
   },
   "repository": {
